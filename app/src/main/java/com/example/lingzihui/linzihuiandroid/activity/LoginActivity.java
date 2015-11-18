@@ -29,7 +29,7 @@ import cn.smssdk.SMSSDK;
 
 public class LoginActivity extends Activity {
 
-    // 填写从短信SDK应用后台注册得到的APPKEY
+    // 填写从短信SDK应用后台注册得到的APPKEY123456
     private static String APPKEY = "bd2e97285a60";
     // 填写从短信SDK应用后台注册得到的APPSECRET
     private static String APPSECRET = "a674e74bf5ee044aab7695bdf0135a29";
