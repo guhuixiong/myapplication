@@ -3,12 +3,12 @@
   <component name="GitSharedSettings">
     <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
       <list>
-        <option value="https://github.com/ZousiLaMeDiao/LinZiHuiAndroid" />
+        <option value="https://github.com/guhuixiong/LinZiHuiAndroid3.git" />
       </list>
     </option>
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

@@ -1,11 +1,62 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_f0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <include layout="@layout/util_title"/>
 
-</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/main_fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <com.example.lingzihui.linzihuiandroid.widget.CommonRadioGroup
+            android:gravity="center"
+            android:id="@+id/main_rg"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <RadioButton
+                android:id="@+id/main_rb1"
+                android:drawableTop="@drawable/main_rb_one"
+                android:text="邻信"
+                style="@style/main_rb_bottom"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/main_rb2"
+                android:drawableTop="@drawable/main_rb_two"
+                style="@style/main_rb_bottom"
+                android:text="邻友"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/main_rb3"
+                android:drawableTop="@drawable/main_rb_three"
+                android:text="邻近"
+                style="@style/main_rb_bottom"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/main_rb4"
+                android:drawableTop="@drawable/main_rb_four"
+                android:text="我"
+                style="@style/main_rb_bottom"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </com.example.lingzihui.linzihuiandroid.widget.CommonRadioGroup>
+    </RelativeLayout>
+
+
+</LinearLayout>

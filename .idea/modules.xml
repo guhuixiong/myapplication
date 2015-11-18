@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LinZiHuiAndroid3.iml" filepath="$PROJECT_DIR$/LinZiHuiAndroid3.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn.smssdk/cn.smssdk.iml" filepath="$PROJECT_DIR$/cn.smssdk/cn.smssdk.iml" />
     </modules>
   </component>
 </project>
